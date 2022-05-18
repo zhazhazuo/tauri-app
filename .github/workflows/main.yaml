@@ -30,7 +30,7 @@ jobs:
         run: npm i
 
       - name: Env
-        run: apt-get install libdbus-1-dev
+        run: sudo apt-get install libdbus-1-dev
 
       - name: Build
         run: npm run tauri build
